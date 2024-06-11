@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    width: 80%;
+    background-color: grey;
+    margin: auto;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+#message{
+    font-size: 3rem;
+    border-bottom: 1px solid white;
+    padding-bottom: 1rem;
+}
+#cont{
+    font-size: 2rem;
+    padding: 1rem 0rem;
+}
+#static{
+    font-size: 1.3rem;
+}
+#static h3 span{
+    color: white;
+}
+#static button{
+    background-color: blue;
+    color: white;
+    width: 20%;
+    height: 3rem;
+    display: block;
+    margin: auto;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+#static button:hover{
+    background-color: rgb(52, 52, 91);
+}
+.design{
+    width: 80%;
+    margin: auto;
+    background-color: brown;
+    display: grid;
+    grid-template-columns: 30% 40% 10%;
+    justify-content: space-between;
+    margin-top: 1rem;
+    padding: 1rem;
+    align-items: center;
+    color: white;
+    border-radius: 5px;
+}
+.design div img{
+    width: 70%;
+    height: 6rem;
+}
+.design div h3{
+    font-size: 1.4rem;
+    margin-top: 0.2rem;
+}
+.design div h2{
+    padding-top: 10px;
+    font-size: 1.5rem;
+}
+.design div i{
+    color: rgb(203, 165, 116);
+}
+.design div i:hover{
+    color: rgb(136, 128, 116);
+}

@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* width: 100%; */
+}
+/* body{
+    background-image: url(./image/wp5267287.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  } */
+form{
+    border: 3px solid grey;
+    width: 28%;
+    height: 30rem;
+    position: absolute;
+    top: 105px;
+    left: 35rem;
+    border-radius: 8px;
+    background-color: lightgray;
+}
+form>h1{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    color: black;
+    font-family: "Raleway", sans-serif;
+}
+form>input{
+    border-radius: 4px;
+}
+.h{
+    height: 9%;
+    width: 40%;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+#m{
+    width: 87.4%;
+    height: 45px;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+form>p{
+    margin-top: 10px;
+    margin-left: 24px;
+    font-size: 14px;
+    color: black
+}
+#d{
+    height: 40px;
+    width: 87%;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+.p1{
+    height: 40px;
+    width: 87%;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+button{
+    width: 45%;
+    height: 40px;
+    margin-left: 120px;
+    margin-top: 23px;
+    background-color: rgb(31, 160, 240);
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+}
+button:hover{
+    background-color:   rgba(31, 160, 240, 0.673);
+}
+span{
+    color: red;
+    font-size: 13.5px;
+    font-weight: 500;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-com</title>
+    <link rel="stylesheet" href="./main.css" />
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v6.5.2/css/all.css"
+    />
+    <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v6.5.2/css/sharp-thin.css"
+    />
+    <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v6.5.2/css/sharp-solid.css"
+    />
+</head>
+<body>
+    <nav>
+        <div id="left">
+            <img src="./image/OIP (1).jpeg" alt="" />
+        </div>
+        <div id="center">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="#maleContainer">Mens</a></li>
+                <li><a href="#femaleContainer">Womens</a></li>
+                <li><a href="#kidsContainer">Kids</a></li>
+                <li><a href="#electronicsContainer">Electronic</a></li>
+            </ul>
+        </div>
+        <div id="right">
+            <div class="cont">
+                <i class="fa-solid fa-cart-shopping-fast"></i>
+                <span id="productCount">0</span>
+            </div>
+
+            <div id="userInfo">
+            <i class="fa-sharp fa-solid fa-user"></i>
+            <span id="user">Guest</span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="sideBar">
+        <div>
+            <h4 id="close">x</h4>
+            <i class="fa-sharp fa-solid fa-user"></i>
+            <span id="userName">Guest</span>
+        </div>
+
+        <div id="details">
+            <a href="./login.html"> <button>login</button></a>
+        </div>
+    </section>
+
+    <section id="search">
+        <input type="text" placeholder="Search items" id="userInput">
+        <button id="searchBtn">Search</button>
+        <div id="searchContainer" class="design"></div>
+    </section>
+
+    <main>
+        <section id="maleContainer" class="design"></section>
+        <section id="femaleContainer" class="design"></section>
+        <section id="kidsContainer" class="design"></section>
+        <section id="electronicsContainer" class="design"></section>
+    </main>
+
+    <script src="./main.js"></script>
+</body>
+</html>

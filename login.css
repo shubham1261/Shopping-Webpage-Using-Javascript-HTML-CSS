@@ -1,0 +1,79 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+}
+img{
+    position: absolute;
+    top: 110px;
+    left: 200px;
+    width: 400px;
+}
+form{
+    border: 3px solid grey;
+    width: 20%;
+    height: 22rem;
+    position: absolute;
+    top: 140px;
+    left: 55rem;
+    padding: 30px;
+    border-radius: 7px;
+    background-color: lightgray;
+}
+form>h1{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 13px;
+    font-family: "Raleway", sans-serif;
+}
+form>input{
+    display: flex;
+    width: 100%;
+    height: 10%;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+form>button{
+    display: flex;
+    width: 70%;
+    height: 35px;
+    padding-top: 8px;
+    margin-top: 18px;
+    margin-left: 45px;
+    padding-left: 85px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: rgb(31, 160, 240);
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+form>button:hover{
+    background-color:  rgba(31, 160, 240, 0.673);
+}
+form>a{
+    text-decoration: none;
+    display: flex;
+}
+#a1{
+    padding-top: 15px;
+    padding-left: 90px;
+}
+#a2{
+    padding-left: 70px;
+}
+form>a:hover{
+    text-decoration: underline;
+}
+form>hr{
+    border: 1px solid black;
+}
+span{
+    color: red;
+    font-size: 13.5px;
+    font-weight: 500;
+}
+#s3{
+    padding-top: 10px;
+    padding-left: 100px;
+}
